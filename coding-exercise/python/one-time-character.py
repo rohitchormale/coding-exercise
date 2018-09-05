@@ -9,10 +9,8 @@ Return '_' if not such character
 """
 
 import unittest
-
-
-
 import string
+
 
 def foo(s):
     occure = {}
@@ -31,6 +29,7 @@ class FooTestCase(unittest.TestCase):
     def test_foo(self):
         self.assertEqual('_', foo('aaabbbccaa'))
         self.assertEqual('f', foo('aaabbbccadafsd'))
+
 
 if __name__ == "__main__":
     unittest.main()
