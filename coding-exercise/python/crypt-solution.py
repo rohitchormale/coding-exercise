@@ -36,8 +36,6 @@ def foo(crypt, solution):
     return True
 
 
-
-
 import unittest
 class FooTestCase(unittest.TestCase):
     def test_foo_true(self):
